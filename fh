@@ -1,5 +1,5 @@
 #/bin/sh
 
-wallpaper=$(ls | shuf -n 1)
+wallpaper=$(ls /home/therry/.wall/ | shuf -n 1)
 
 feh --bg-fill /home/therry/.wall/$wallpaper
