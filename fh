@@ -1,6 +1,6 @@
 #/bin/sh
 
-#wallpaper=$(ls /home/therry/.wall/ | shuf -n 1)
+wallpaper=$(ls /home/therry/.wall/ | shuf -n 1)
 #wallpaper=$(ls wallhaven-83x1g2.jpg && ls wallhaven-r7w211.jpg | shuf -n 1)
 
-feh --bg-fill /home/therry/.wall/wallhaven-83x1g2.jpg
+feh --bg-fill /home/therry/.wall/$wallpaper
